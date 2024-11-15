@@ -1,0 +1,69 @@
+.outerbox {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  display: flex;
+  display: inline-block;
+}
+.outerbox img {
+  width: 200px;
+  padding: 10px;
+}
+.contentbox {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contentbox label {
+  font-weight: 20px;
+  font-size: large;
+  padding: 10px;
+}
+.contentbox input {
+  padding: 20px;
+  border-radius: 10px;
+}
+.btns {
+  padding: 20px;
+}
+.btns button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  margin-right: 10px;
+  border: none;
+}
+.logn {
+  background-color: grey;
+  color: white;
+}
+.logn:hover {
+  background-color: lightgray;
+  color: black;
+}
+.sign:hover {
+  background-color: grey;
+  color: white;
+}
+.sign {
+  background-color: lightgray;
+  color: black;
+}
+.passvis {
+  align-items: left;
+  justify-content: start;
+  display: flex;
+  position: relative;
+}
+.passvis input {
+  width: 500px;
+}
+.passvis img {
+  position: absolute;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+}
